@@ -1,4 +1,18 @@
 public class Product {
+
+    public Product(int id, String name, String features, double price, int stockAmount){
+        System.out.println("Constructor olusturuldu!");
+        this.id = id;
+        this.name = name;
+        this.features = features;
+        this.price = price;
+        this.stockAmount = stockAmount;
+    }
+
+    public Product(){
+
+    }
+
     private int id;
     private String name;
     private String features;
