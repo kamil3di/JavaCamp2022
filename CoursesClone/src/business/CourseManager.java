@@ -1,12 +1,7 @@
 package business;
-
 import core.logging.Logger;
 import dataAccess.CourseDao;
-import dataAccess.HibernateCourseDao;
-import dataAccess.JdbcCourseDao;
 import entities.Course;
-
-import java.util.List;
 
 public class CourseManager {
     public CourseManager(CourseDao[] courseDaos,Logger[] loggers) {
